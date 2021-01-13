@@ -1,0 +1,8 @@
+runtime: nodejs12
+
+handlers:
+- url: /
+  static_files: public/
+  upload: public/index.html
+- url: /
+  static_dir: public/static
